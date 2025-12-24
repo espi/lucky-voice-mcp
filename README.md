@@ -20,7 +20,7 @@ An unofficial Model Context Protocol (MCP) server for managing Lucky Voice Karao
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/your-username/lucky-voice-mcp.git
+git clone https://github.com/espi/lucky-voice-mcp.git
 cd lucky-voice-mcp
 pip install -r requirements.txt
 ```
@@ -64,6 +64,23 @@ docker run -i --rm \
 
 ## Disclaimer
 This project is unofficial and not affiliated with Lucky Voice. Use responsibly. The internal API may change at any time.
+
+## Future Enhancements
+We welcome ideas to make this server even better! Here are some planned features:
+- **Spotify Import**: A tool to scrape a Spotify playlist and auto-match songs on Lucky Voice.
+- **Smart Mixes**: "Create a 1-hour 80s playlist" using LLM logic to select songs.
+- **Lyrics Integration**: Fetch lyrics for the currently playing song.
+- **Headless Auth**: A browser extension helper to auto-extract cookies.
+
+## Contributing
+Contributions are welcome!
+1.  **Fork** the repository.
+2.  **Create** a feature branch (`git checkout -b feature/amazing-feature`).
+3.  **Commit** your changes.
+4.  **Push** to the branch.
+5.  **Open a Pull Request**.
+
+Please ensure you scrub any personal cookies or data from your code before submitting.
 
 ## License
 MIT
